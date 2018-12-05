@@ -1,0 +1,35 @@
+html body .revolution-slider {
+  position: relative; }
+  html body .revolution-slider::after {
+    content: '';
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: absolute; }
+  html body .revolution-slider .tp-parallax-wrap {
+    z-index: 5 !important;
+    position: relative; }
+html body .grw-widget-title {
+  margin-top: 30px; }
+html body .wp-google-place {
+  margin-top: 20px !important;
+  padding-bottom: 20px !important;
+  border-bottom: 1px solid #e8e8e8 !important; }
+html body .wp-gr .wp-google-text {
+  font-size: 11px !important; }
+html body .sf-menu li.current-menu-item a, html body .sf-menu li.current_page_parent a {
+  color: #0071BD; }
+html body .sf-menu li:last-child a {
+  color: #000; }
+html body .post-image {
+  height: 200px;
+  width: 90%;
+  margin: 20px auto 0px;
+  display: block; }
+html body .theme-page .content h2 {
+  margin-top: 40px; }

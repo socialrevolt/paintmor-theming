@@ -1,0 +1,21 @@
+/*
+	Theme Name: Paintmor Painting Services
+	Theme URI: http://socialrevoltagency.com
+	Description: Wordpress theme built for Paintmor Painters
+	Version: 0.3
+	Author: Social Revolt Agency
+	Author URI: http://socialrevoltdesigns.com
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+/* global box-sizing */
+
+h3.widget-title {
+	display: none !important;
+}
+.panel-grid {
+	margin-bottom: 0px !important;
+}
