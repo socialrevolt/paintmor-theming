@@ -56,7 +56,7 @@ get_header(); ?>
                 <img src="<?php echo get_the_post_thumbnail_url($post->object_id) ?>" alt="">
               </a>
               <h4 class="box-header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-              <p>Complete apartment and house cleaning services by professional cleaners.</p>
+              <p>Complete apartment and house painting services by professional painters.</p>
             </li>
 
             <?php 
@@ -68,9 +68,6 @@ get_header(); ?>
     </div>
   </div>
 </article>
-
-<!-- End article -->
-<?php edit_post_link(); ?>
 
 <?php endwhile; ?>
 

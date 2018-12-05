@@ -60,7 +60,7 @@
     <li class="column column-1-3">
       <div class="icon features-task"></div>
       <h4>WHAT WE DO</h4>
-      <p>We provide professional painting services designed to keep your home beautiful and maintained, giving you time to focus on the thinsg you love.</p>
+      <p>We provide professional painting services designed to keep your home beautiful and maintained, giving you time to focus on the things you love.</p>
     </li>
     <li class="column column-1-3">
       <div class="icon features-home-4"></div>
