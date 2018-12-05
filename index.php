@@ -41,7 +41,7 @@
           data-y="['476', '478', '304', '353']"
           >         
           <div class="align-center">
-            <a class="more" href="?page=service_calculator" title="Service calculator">Discover how</a>
+            <a class="more" href="<?php echo site_url(); ?>/contact" title="Service calculator">Get A Quote</a>
           </div>
         </div>
         <!-- / -->
