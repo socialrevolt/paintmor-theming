@@ -105,6 +105,11 @@
             <nav>
               <?php wp_nav_menu(['menu' => 'Header Menu','menu_class' => 'sf-menu']); ?>
             </nav>
+            <div class="mobile-menu-container">
+                <nav>
+                  <?php wp_nav_menu(['menu' => 'Header Menu','menu_class' => 'mobile-menu collapsible-mobile-submenus']); ?>
+                </nav>
+              </div>
           </div>
           <!-- <div class="header-icons-container hide-on-mobiles">
             <a class="template-search" href="#" title="Search"></a>
