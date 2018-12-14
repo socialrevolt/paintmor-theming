@@ -12,7 +12,7 @@ get_header(); ?>
 <!-- Begin article -->
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-  <div class="theme-page padding-bottom-100">
+  <div class="theme-page services-page padding-bottom-100">
     <div class="row gray full-width page-header vertical-align-table">
       <div class="row">
         <div class="page-header-left">

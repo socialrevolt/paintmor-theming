@@ -23,7 +23,7 @@ html body .revolution-slider {
   html body .revolution-slider .tp-parallax-wrap {
     z-index: 5 !important;
     position: relative; }
-html body .services-list li {
+html body .services-page .services-list li {
   width: 30%;
   display: inline-block;
   float: none; }
