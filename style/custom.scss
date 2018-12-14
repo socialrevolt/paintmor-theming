@@ -1,5 +1,19 @@
 html {
 	body {
+		.contact-form {
+			label {
+				font-weight: 600 !important;
+				color: #000 !important;
+				margin: 0px auto !important;
+			}
+			.wpcf7 {
+				max-width: 90% !important;
+				margin: 10px auto !important;
+			}
+			input,textarea {
+				font-size: 14px !important;
+			}
+		}
 		.revolution-slider {
 			position: relative;
 			&::after {

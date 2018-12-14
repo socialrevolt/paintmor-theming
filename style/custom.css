@@ -1,3 +1,12 @@
+html body .contact-form label {
+  font-weight: 600 !important;
+  color: #000 !important;
+  margin: 0px auto !important; }
+html body .contact-form .wpcf7 {
+  max-width: 90% !important;
+  margin: 10px auto !important; }
+html body .contact-form input, html body .contact-form textarea {
+  font-size: 14px !important; }
 html body .revolution-slider {
   position: relative; }
   html body .revolution-slider::after {
