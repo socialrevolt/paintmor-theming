@@ -28,12 +28,12 @@ html body .revolution-slider {
     font-size: 14px !important;
     max-width: 90%;
     margin: 0 auto; } }
-html body .services-page .contained.services-list li {
+html body .services-page .contained .services-list li {
   width: 30%;
   display: inline-block;
   float: none; }
   @media all and (max-width: 767px) {
-    html body .services-page .contained.services-list li {
+    html body .services-page .contained .services-list li {
       width: 100%; } }
 html body .grw-widget-title {
   margin-top: 30px; }
