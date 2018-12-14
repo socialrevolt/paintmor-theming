@@ -32,17 +32,25 @@ html {
 				z-index: 5 !important;
 				position: relative;
 			}
-			@media all and (max-width: 767px) {
-				.tp-parallax-wrap:nth-child(0) {
-					top: 150px !important;
-				}
+		}
+		@media all and (max-width: 767px) {
+			.tp-parallax-wrap {
+				// top: 150px !important;
+			}
+			h4 {
+				font-size: 14px !important;
+				max-width: 90%;
+				margin: 0 auto;
 			}
 		}
 		.services-page {
-			.services-list li {
+			.contained.services-list li {
 				width: 30%;
 				display: inline-block;
 				float: none;
+				@media all and (max-width: 767px) {
+					width: 100%;
+				}
 			}
 		}
 		.grw-widget-title {

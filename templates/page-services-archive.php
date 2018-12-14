@@ -39,7 +39,7 @@ get_header(); ?>
     </div>
     <?php the_content(); ?>
     <div class="clearfix">
-      <div class="row page-margin-top-section">
+      <div class="row contained page-margin-top-section">
         <ul class="services-list gray clearfix">
           <?php $args = array(
             'posts_per_page'   => -1,

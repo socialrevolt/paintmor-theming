@@ -11,10 +11,10 @@
         <img src="https://socialrevoltdesigns.com/demo/paintmmor/wp-content/uploads/2018/06/pexels-photo-106399.jpeg" alt="slidebg1" data-bgfit="cover">
         <!-- LAYERS -->
         <!-- LAYER 01 -->
-        <div class="tp-caption"
+        <div class="tp-caption "
           data-frames='[{"delay":500,"speed":1500,"from":"y:-40;o:0;","ease":"easeInOutExpo"},{"delay":"wait","speed":500,"to":"o:0;","ease":"easeInOutExpo"}]'
           data-x="center"
-          data-y="['211', '257', '160', '218']"
+          data-y="['211', '257', '160', '100']"
           >
           <h4>Family Owned Professional Painting Services in DFW</h4>
         </div>
@@ -22,15 +22,15 @@
         <div class="tp-caption"
           data-frames='[{"delay":900,"speed":2000,"from":"y:40;o:0;","ease":"easeInOutExpo"},{"delay":"wait","speed":500,"to":"o:0;","ease":"easeInOutExpo"}]'
           data-x="center"
-          data-y="['273', '313', '200', '260']"
+          data-y="['273', '313', '200', '200']"
           >
-          <h2><a href="?page=service_calculator" title="Estimate Total Costs">YOUR VISION</a></h2>
+          <h2><a href="<?php echo site_url(); ?>/contact" title="Estimate Total Costs">YOUR VISION</a></h2>
         </div>
         <!-- LAYER 03 -->
         <div class="tp-caption"
           data-frames='[{"delay":1100,"speed":2000,"from":"y:40;o:0;","ease":"easeInOutExpo"},{"delay":"wait","speed":500,"to":"o:0;","ease":"easeInOutExpo"}]'
           data-x="center"
-          data-y="['345', '368', '236', '290']"
+          data-y="['345', '368', '236', '230']"
           >
           <h2 class="slider-subtitle"><strong>PAINTED AND PERFECTED</strong></h2>
         </div>
@@ -38,7 +38,7 @@
         <div class="tp-caption"
           data-frames='[{"delay":1500,"speed":1500,"from":"y:40;o:0;","ease":"easeInOutExpo"},{"delay":"wait","speed":500,"to":"o:0;","ease":"easeInOutExpo"}]'
           data-x="center"
-          data-y="['476', '478', '304', '353']"
+          data-y="['476', '478', '304', '320']"
           >         
           <div class="align-center">
             <a class="more" href="<?php echo site_url(); ?>/contact" title="Service calculator">Get Started</a>
@@ -185,7 +185,7 @@
 <div class="row full-width flex-box page-margin-top-section">
   <div class="column column-1-2 background-2">
     <a class="flex-hide" href="" title="Window Cleaning">
-      <img src="http://placehold.it/960x750" alt="">
+      <!-- <img src="http://placehold.it/960x750" alt=""> -->
     </a>
   </div>
   <div class="column column-1-2 padding-bottom-96">
