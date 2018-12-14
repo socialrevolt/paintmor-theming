@@ -41,7 +41,7 @@
           data-y="['476', '478', '304', '353']"
           >         
           <div class="align-center">
-            <a class="more" href="<?php echo site_url(); ?>/contact" title="Service calculator">Get A Quote</a>
+            <a class="more" href="<?php echo site_url(); ?>/contact" title="Service calculator">Get Started</a>
           </div>
         </div>
         <!-- / -->
@@ -250,7 +250,7 @@
 
 
 <div class="row margin-top-89">
-  <h2 class="align-center green">Ready for a FREE Consultation?<br>Please call now: <a href="tel:2507257052">250 725 7052</a></h2>
+  <h2 class="align-center green">Ready for a FREE Consultation?<br>Please call now: <a href="tel:9723090161">(972) 309-0161</a></h2>
   <p class="description align-center margin-top-20">or send us a message</p>
 </div>
 <div class="row page-margin-top">

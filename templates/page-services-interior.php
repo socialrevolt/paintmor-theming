@@ -84,7 +84,7 @@ get_header(); ?>
           </div>
         </div>
         <div class="row margin-top-89">
-          <h2 class="align-center green">Interested in <?php echo get_the_title(); ?>?<br>Please call now: <a href="tel:2507257052">250 725 7052</a></h2>
+          <h2 class="align-center green">Interested in <?php echo get_the_title(); ?>?<br>Please call now: <a href="tel:9723090161">(972) 309-0161</a></h2>
           <p class="description align-center margin-top-20">or send us a message</p>
         </div>
         <div class="row page-margin-top">

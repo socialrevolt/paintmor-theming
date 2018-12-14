@@ -106,7 +106,7 @@
               <?php wp_nav_menu(['menu' => 'Header Menu','menu_class' => 'sf-menu']); ?>
             </nav>
           </div>
-          <div class="header-icons-container hide-on-mobiles">
+          <!-- <div class="header-icons-container hide-on-mobiles">
             <a class="template-search" href="#" title="Search"></a>
             <form class="search">
               <input type="text" name="s" placeholder="Type and hit enter..." value="Type and hit enter..." class="search-input hint">
@@ -116,7 +116,7 @@
               </fieldset>
               <input type="hidden" name="page" value="search">
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
 

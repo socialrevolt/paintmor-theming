@@ -60,13 +60,13 @@ get_header(); ?>
           if ($query->have_posts()): while ($query->have_posts()) : $query->the_post(); ?>
 
             <li>
-              <a href="<?php echo get_the_permalink(); ?>"  class="post-image">
+              <a href="<?php echo get_the_permalink(); ?>"  class="post-image" style="height: auto !important;">
                 <div class="post-date">
                   <div class="month"><?php the_time('F'); ?></div>
                   <h4><?php the_time('j'); ?></h4>
                 </div>
                 <?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
-                  <?php the_post_thumbnail(); ?>
+                  <img src="<?php echo get_the_post_thumbnail_url(); ?>">
                 <?php endif; ?>
               </a>
               <h2><a href="<?php echo get_the_permalink(); ?>"><?php echo get_the_title(); ?></a></h2>

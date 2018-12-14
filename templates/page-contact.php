@@ -20,7 +20,7 @@ get_header(); ?>
             <li class="column column-1-2">
               <div class="icon features-phone"></div>
               <h4>PHONE</h4>
-              <p>Phone: <a href="tel:2507257052">250 725 7052</a><br>Mobile: <a href="tel:2507257152">250 725 7152</a></p>
+              <p>Phone: <a href="tel:9723090161">(972) 309-0161</a><br>Mobile: <a href="tel:9723090161">(972) 309-0161</a></p>
             </li>
             <li class="column column-1-2">
               <div class="icon features-email"></div>

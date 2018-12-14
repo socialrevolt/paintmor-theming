@@ -42,7 +42,7 @@
 					<div class="post single">
 
 						<!-- Thumbnail and title -->
-						<a href="<?php echo get_the_permalink(); ?>" title="<?php echo get_the_title(); ?>" class="post-image">
+						<a href="<?php echo get_the_permalink(); ?>" title="<?php echo get_the_title(); ?>" class="post-image" style="height: auto !important">
 							<div class="post-date">
 								<div class="month"><?php the_time('F'); ?></div>
 								<h4><?php the_time('j'); ?></h4>
@@ -87,10 +87,11 @@
 
 					</div>
 				</div>
-			</div>
-			<div class="column column-1-4 cm-smart-column">
+				<div class="column column-1-4 cm-smart-column">
 				<?php get_sidebar(); ?>
 			</div>
+			</div>
+			
 		</div>
 	</div>
 </div>

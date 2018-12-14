@@ -49,7 +49,7 @@
 						</ul>
 					</div>
 					<div class="column column-1-4">
-						<h6>LATEST POSTS</h6>
+						<!-- <h6>LATEST POSTS</h6> -->
 						<ul class="latest-post margin-top-42">
 							<?php 
 
@@ -63,10 +63,10 @@
 							if ( $query->have_posts() ) {
 								while ( $query->have_posts() ) {
 									$query->the_post(); ?>
-									<li>
+									<!-- <li>
 										<a href="<?php echo get_the_permalink(); ?>"><?php echo get_the_title(); ?></a>
 										<abbr title="<?php echo get_the_date(); ?>"><?php echo get_the_date(); ?></abbr>
-									</li>
+									</li> -->
 								<?php }
 								/* Restore original Post Data */
 								wp_reset_postdata();
