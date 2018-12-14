@@ -39,7 +39,7 @@ html body .sf-menu li.current-menu-item a, html body .sf-menu li.current_page_pa
   color: #0071BD; }
 html body .sf-menu li:last-child a {
   color: #000; }
-html body .post-image {
+html body .blog .post-image {
   height: 200px;
   width: 90%;
   margin: 20px auto 0px;
