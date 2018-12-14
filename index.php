@@ -89,7 +89,7 @@
 
             <li class="column column-1-3">
               <a href="<?php echo $item->url; ?>">
-                <div class="post-image" style="background: url('<?php echo get_the_post_thumbnail_url($item->object_id); ?>') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover;"></div>
+                <div class="post-image" style="background: url('<?php echo get_the_post_thumbnail_url($item->object_id); ?>') no-repeat center center; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; height: 200px !important;"></div>
               </a>
               <h4 class="box-header"><a href="<?php echo $item->url; ?>" title="House Cleaning"><?php echo $item->title; ?></a></h4>
               <p>Interior and exterior painting services with precision for the right price.</p>
