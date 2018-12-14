@@ -257,27 +257,26 @@
 <div class="row page-margin-top">
   <form class="contact-form" id="contact-form" method="post" action="contact_form/contact_form.php">
     <div class="row flex-box">
-      <fieldset class="column column-1-2">
-        <label>YOUR NAME</label>
+      <fieldset class="column column-1-1">
+        <?php echo do_shortcode('[contact-form-7 id="309" title="Contact form 1"]'); ?>
+        <!-- <label>YOUR NAME</label>
         <input class="text-input" name="name" type="text" value="">
         <label>YOUR EMAIL</label>
         <input class="text-input" name="email" type="text" value="">
         <label>YOUR PHONE</label>
         <input class="text-input" name="phone" type="text" value="">
-      </fieldset>
-      <fieldset class="column column-1-2">
         <label>MESSAGE</label>
-        <textarea name="message"></textarea>
+        <textarea name="message"></textarea> -->
       </fieldset>
     </div>
-    <div class="row margin-top-30">
+    <!-- <div class="row margin-top-30">
       <div class="column column-1-1">
         <input type="hidden" name="action" value="contact_form" />
         <div class="row margin-top-15 padding-bottom-16 align-center">
           <a class="more submit-contact-form" href="#" title="Send message">Send message</a>
         </div>
       </div>
-    </div>
+    </div> -->
   </form>
 </div>
 
